@@ -1,0 +1,331 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  line-height: 1.5;
+   background-image: url("https://images.unsplash.com/photo-1546405489-12bea0e6d80f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1402&q=80"); 
+   filter: blur;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-cover: 100%;
+  font-family: 'Gravitas One', cursive;
+  color: white;
+  text-shadow: 1em;
+  margin: 50px;
+  height: 100%;
+}
+
+
+
+
+div.image {
+   content:url(https://lh3.googleusercontent.com/xNvo4-RVz1LVrqV8bc7UPe2Ie2Kfoyi716rXZ7WkF7Nd59RqR7cXHMBuYk5MDfyN8mptEWdyrLTKvW5yyW7BXLJ3jW4DwIIiFYDURmwPAYb_BJqy98pjvUU_OTZTLJvNoY6wW889LP2zJA26lSCQaiBaa9YQ2bdr0dkPAb-ogJOwffV7Dy5Xs_Vzdrds9hTByXVh-XEVFEMw3Ib_AuKUBixndwbZabD2_zXS5AzLlnbg_5Du7Co7tdWJfNaz-brfhJBo7Vcqz5cfSyCZgO8OAlGEtlY48nw0EwP68cOionxZtLBjFKwmb1IBnDDMm3tatb2ahO-6NymK-aQAeWXjmTYdUV_UuKFrYzNskGNLOIfxu9VBAT-HPf7OTNHbbaqNOR65IgqwmECyeDutsOLPkbMNQDsY5o1kGnxasaI6G91bhqT3Xr_fUAwEMO2uL4MqoxsDIQ8E8eMJdGmEm8lK5Qddh3z4OcDA2NnUnS7hQdBdREgPZTHvpYpGUdaGv3axHapykBkLYYOUsSBdk3BfofhY-Hl_cNhIZ09RaqOKmiq5ia-fOmGTS1KiqJU2plxoK-iINL2jIRUEcVQEe5GJ6e7UAh9ZjW5kOUJ0hsJW5y6ax2BR2iNR9rSrF_nWVREQzV0iRA9_89sIn0xgmGbZUhXFeugKA9U=w664-h618-no);
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}​
+
+
+
+
+
+.menu {
+    margin-right: 10px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    height: 20px;
+    width: 20px;
+ 
+}
+
+.menuTwo {
+    margin-right: 10px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    height: 20px;
+    width: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tagbox {
+    height: 500px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    display: table;
+  
+}
+
+.introTag {
+   font-size: 5em;
+   text-align: center;
+   vertical-align: middle;
+   padding-bottom: 15px;
+   font-weight: bold;
+   padding: 25px;
+   
+}
+
+ 
+
+#projects {
+     
+      width: 100%;
+    
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    display: table;
+    margin: 10px;
+    font-style: normal;
+
+    border-style: solid;
+    border-width: 5px;
+    margin: 10px;
+   
+}
+
+ul.navlink {
+
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+   
+    
+    
+
+}
+
+nav {
+  color: white;
+  background-color: #7CF0BD;
+  opacity: 0.5;
+   padding: 14px 16px;
+  text-decoration: none;
+  overflow: hidden;
+  margin: 0%;
+}
+
+
+
+.liveLinks {
+    height: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+.liveLinks:hover {
+    animation: bounce 1s;
+}
+
+.projectText {
+    text-align: left;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    letter-spacing: 1px;
+    line-height: 120%;
+}
+
+.techLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.aboutBox {
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    display: table;
+        
+    border-style: solid;
+    border-width: 5px;
+    margin: 10px;
+
+}
+
+.aboutMeNum {
+    text-align: left;
+    margin-top:0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+  
+}
+
+.tech {
+    height: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about {
+    width: 100%;
+  
+    padding-top: 10%;
+    border-width: 10px;
+        border-style: solid;
+}
+
+.whatIDo {
+     width: 100%;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    display: table;
+      border-width: 10px;
+        border-style: solid;
+    margin: 10px;
+}
+
+.whatIDoList {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    color: white;
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0px;
+    
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+.contact {
+    justify-content: space-between;
+    padding-bottom: 30px;
+        list-style: none;
+    text-align: center;
+    padding: 0px;
+    color: white;
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0px;
+    
+}
+
+
+
+.contactLogoImg {
+    height: 30px;
+    margin: 5px;
+    color: white;
+     
+}
+
+.contactLogoImg:hover {
+	transform: skew(-10deg);
+}
+
+
+
+@media screen and (max-width: 450px) {
+
+
+
+    nav {
+        position: absolute;
+        right: -1px;
+    }
+    
+    .navLink {
+        display: none;
+    }
+
+    .aboutMeNum {
+        display: block;
+    }
+
+    .menuDrop {
+        font-family: 'Orbitron', sans-seri;
+        text-align: right;
+    }
+
+    .menuList {
+        padding-right: 10px;
+        font-size: 15px;
+        color: grey;
+    }
+}
+
+@media screen and (min-width: 451px) {
+    
+  
+
+    nav {
+        position: absolute;
+        right: -1px;
+    }
+
+    .navLink {
+        display: none;
+    }
+
+    .menuDrop {
+       
+        text-align: right;
+    }
+
+    .menuList {
+        color: grey;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+
+    nav {
+        position: fixed;
+        right: 0px;
+        padding-left: 0px;
+    }
+
+    .navLink {
+        display: inline-block;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: white;
+        padding-left: 0px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+  
+}
